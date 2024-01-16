@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/index.css -o ./public/KP.css --watch",
+    "landing": "npx tailwindcss -i ./src/index.css -o ./public/landingPage/landing.css --watch"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "maplibre-gl": "^3.6.2"
+  }
+}
